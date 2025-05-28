@@ -16,8 +16,8 @@ classDiagram
     class Account {
         -String accountNumber
         -String accountAgency
-        -double accountBalance
-        -double accountLimit
+        -BigDecimal accountBalance
+        -BigDecimal accountLimit
     }
 
     class Feature {
